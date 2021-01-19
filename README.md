@@ -1,6 +1,7 @@
 # Machine Learning Symbolic Regression Lattice Thermal Conductivity
 
 #### [Christian Loftis](https://github.com/iron-condor), Kunpeng Yuan, Yong Zhao, Ming Hu, [Jianjun Hu](https://github.com/usccolumbia)
+#### Department of Computer Science & Engineering, University of South Carolina
 
 This repository contains code used to replicate the experiments described in [this paper.](https://pubs.acs.org/doi/10.1021/acs.jpca.0c08103)
 
