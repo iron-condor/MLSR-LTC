@@ -5,6 +5,10 @@
 
 This repository contains code used to replicate the experiments described in [this paper.](https://pubs.acs.org/doi/10.1021/acs.jpca.0c08103)
 
+If you like our paper, please cite:
+
+```Loftis, Christian, Kunpeng Yuan, Yong Zhao, Ming Hu, and Jianjun Hu. "Lattice Thermal Conductivity Prediction Using Symbolic Regression and Machine Learning." The Journal of Physical Chemistry A (2020).```
+
 ## Getting Started
 To get started, clone the repository to an empty folder, and enter it
 
