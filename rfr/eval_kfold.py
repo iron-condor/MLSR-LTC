@@ -61,7 +61,7 @@ dataset = pd.read_csv("../dataset.csv", delimiter=",")
 dataset = preprocess_space_groups(dataset)
 dataset_sorted = dataset.sort_values('κref.')
 
-X = dataset.iloc[:, 2:23]
+X = dataset.iloc[:, 1:23]
 Y = dataset["κref."].astype("float64")
 
 slack_values = dataset.loc[:, "κ"]

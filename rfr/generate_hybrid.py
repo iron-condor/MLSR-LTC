@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 import os
 import pickle
 import math
+import sys
 
 FOLDER_NAME = "top_models_hybrid_cv"
 
@@ -141,7 +142,7 @@ def preprocess_data_holdout_true_middle(dataset):
 	return X_train, X_test, Y_train, Y_test
 
 def preprocess_data_holdout_bottom(dataset):
-	X = dataset.iloc[:, 2:23]
+	X = dataset.iloc[:, 1:23]
 	Y = dataset["κref."].astype("float64")
 
 	X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.80, shuffle=False)

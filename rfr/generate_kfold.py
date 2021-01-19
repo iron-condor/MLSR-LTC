@@ -69,7 +69,7 @@ dataset = preprocess_space_groups(dataset)
 #Sort the dataset by the thermal conductivity values
 dataset = dataset.sort_values('κref.')
 
-X = dataset.iloc[:, 2:23]
+X = dataset.iloc[:, 1:23]
 Y = dataset["κref."].astype("float64")
 
 slack_values = dataset.loc[:, "κ"]

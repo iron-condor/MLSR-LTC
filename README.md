@@ -2,7 +2,7 @@
 
 #### [Christian Loftis](https://github.com/iron-condor), Kunpeng Yuan, Yong Zhao, Ming Hu, [Jianjun Hu](https://github.com/usccolumbia)
 
-This repository contains code used to replicate the experiments described in [this paper.](https://arxiv.org/abs/2008.03670)
+This repository contains code used to replicate the experiments described in [this paper.](https://pubs.acs.org/doi/10.1021/acs.jpca.0c08103)
 
 ## Getting Started
 To get started, clone the repository to an empty folder, and enter it
